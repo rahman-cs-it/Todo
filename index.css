@@ -1,0 +1,67 @@
+.Main_heading{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    height: 15vh;
+    font-size:1.5rem;
+    /* background-color: red; */
+}
+
+.InputBOx{
+    /* border: 2px solid green; */
+    margin-top: 1rem;
+    height: 10vh;
+    
+}
+
+#Serach_text{
+    box-sizing: border-box;
+    width: 34vw;
+    height: 7vh;
+    margin-left: 30%;
+    font-size: 1rem;
+}
+
+#todo_button{
+    box-sizing: border-box;
+    width: 5vw;
+    height: 7vh;
+    font-size: 1rem;
+    background-color: red;
+}
+
+.OutputBox{
+    border: 2px solid gray;
+    height: 65vh;
+    margin: 0 30%;
+    background-color: gray;
+}
+
+.todo-div{
+    /* display: block; */
+    height: 7vh;
+    border: 1px solid green;
+
+}
+
+.todo-item {
+    
+    font-size: 2rem;
+    
+}
+
+.todo-checkbox{
+    transform: scale(2);
+    margin: 1rem;
+
+}
+
+.todo-delete{
+    float: right;
+    margin-top: 1rem;
+    height: 4vh;
+    width: 7vw;
+    background-color:yellow;
+
+}
+
