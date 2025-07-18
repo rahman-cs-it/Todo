@@ -1,6 +1,6 @@
 const input = document.querySelector('#Serach_text');
 const addButton = document.querySelector('#todo_button');
-const li = document.querySelector('.OutputBox');
+const Outputbox = document.querySelector('.OutputBox');
 
 // ✅ When button is clicked
 addButton.addEventListener("click", () => {
@@ -38,7 +38,7 @@ function addTodo(TaskText, isCompleted) {
     label.classList.add('todo-item');
     checkbox.classList.add('todo-checkbox');
     deletee.classList.add('todo-delete');
-    li.appendChild(div);
+    Outputbox.appendChild(div);
 
     // ✅ On checkbox toggle, update localStorage
     checkbox.addEventListener('change', () => {
