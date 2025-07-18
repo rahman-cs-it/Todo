@@ -65,3 +65,7 @@
 
 }
 
+.todo-delete:active{
+    background-color:steelblue;
+}
+
